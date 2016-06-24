@@ -1,0 +1,18 @@
+{
+  "name": "experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "$(npm bin)/mocha",
+    "test:watch": "$(npm bin)/mocha --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^2.5.3",
+    "rxjs": "^5.0.0-beta.9",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.0"
+  }
+}
